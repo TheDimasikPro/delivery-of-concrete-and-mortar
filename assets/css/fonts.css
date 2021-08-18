@@ -1,0 +1,13 @@
+@font-face {
+/*название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) */
+font-family: "Montserrat-Bold"; 
+/*адрес шрифта и тип */
+src: url("../fonts/Montserrat-Bold.ttf") format("truetype");  
+}
+
+@font-face {
+/*название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) */
+font-family: "Montserrat-Regular"; 
+/*адрес шрифта и тип */
+src: url("../fonts/Montserrat-Regular.ttf") format("truetype");  
+}

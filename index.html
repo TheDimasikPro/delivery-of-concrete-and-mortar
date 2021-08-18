@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
+	<script src="assets/js/main.js"></script>
+	
+	<title>БетоМобиль</title>
+</head>
+<body>
+	<!-- шапка сайта -->
+	<header>
+		<div class="container">
+			<div class="header">
+				<!-- логотип -->
+				<div class="header-logo">
+					<a href="#"><img src="assets/images/Logo.png" alt=""></a>
+				</div>
+				<!-- логотип -->
+
+				<!-- телефон -->
+				<div class="header-phone">
+					+7 (4852) 43-65-71
+				</div>
+				<!-- телефон -->
+
+				<!-- навигация -->
+				<div class="header-nav">
+					<nav>
+						<li><a href="#prices">Цены</a></li>
+						<li><a href="#advantages">О нас</a></li>
+						<li><a href="#clients">Клиенты</a></li>
+						<li><a href="#kontacts">Контакты</a></li>
+					</nav>
+				</div>
+				<!-- навигация -->
+			</div>
+		</div>
+	</header>
+	<!-- шапка сайта -->
+
+	<!-- фон для первого блока -->
+	<section class="bg-header"></section>
+	<!-- фон для первого блока -->
+
+	<!-- секция с информацией, которую видно сразу после загрузки страницы -->
+	<section class="container fs">
+		<div class="main-info-fs">
+			<div class="text-btn-fs">
+				<div class="div-text-fs">
+					<p>Доставляем</p>
+					<h1>Бетон <br>и раствор</h1>
+					<p>Решим вашу задачу любой сложности</p>
+				</div>
+				<div class="div-btn-fs">
+					<button class="btn-fs">Заказать</button>
+				</div>
+			</div>
+			<div class="photo-fs">
+				<img src="assets/images/photo1.png" alt="">
+			</div>
+			<div class="div-btn-phone">
+				<div class="btn-img-phone">
+					<button class="btn-phone" id="scale-btn"></button>
+					<img src="assets/images/photo12.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- секция с информацией, которую видно сразу после загрузки страницы -->
+	<!-- секция функции фирмы -->
+	<section class="container function-firm-fs">
+		<div class="function-firm-panel">
+			<h2>01</h2>
+			<h3>Выбрать марку</h3>
+			<p>Звоните. Мы поможем вам выбрать марку</p>
+		</div>
+		<div class="function-firm-panel">
+			<h2>02</h2>
+			<h3>Подберем технику</h3>
+			<p>Звоните. Мы организуем доставку техники, бетона</p>
+		</div>
+		<div class="function-firm-panel">
+			<h2>03</h2>
+			<h3>Адрес доставки</h3>
+			<p>Звоните. Мы  расчитаем стоимость доставки</p>
+		</div>
+	</section>
+	<!-- секция функции фирмы -->
+
+	<!-- секция наши приемущества -->
+	<section class="container our-advantages" id="advantages">
+		<h2>Наши приемущества</h2>
+		<div class="container advantages">
+			<div class="reliability">
+				<h3>Надежность</h3>
+				<p>Решаем задачи в точные<br> сроки и в полном объеме. </p>
+			</div>
+			<div class="vehicle-fleet">
+				<h3>Собственный автопарк</h3>
+				<p>Бетоносмесители, самосвалы, тонары, погрузчики.</p>
+			</div>
+			<div class="regulatory-documents">
+				<h3>Нормативные документы</h3>
+				<p>Сертификаты, сопроволительные документы, соответствие ГОСТ</p>
+			</div>
+		</div>
+	</section>
+	<!-- секция наши приемущества -->
+
+	<!-- фон для секции наши приемущества -->
+	<section class="bg-advantages"></section>
+	<!-- фон для секции наши приемущества -->
+
+	<!-- секция цены -->
+	<section class="container prices" id="prices">
+		<h2>Цены</h2>
+		<!-- общий блок -->
+		<div class="prices-info">
+			<!-- блок цен про раствор -->
+			<div class="solution">
+				<h3>Раствор</h3>
+				<p>руб./куб.м3</p>
+				<div class="all-info-solution">
+					<div class="info-solution">
+						<div>М 50</div>
+						<div>2500</div>
+					</div>
+					<div class="info-solution">
+						<div>М 75</div>
+						<div>2650</div>
+					</div>
+					<div class="info-solution">
+						<div>М 100</div>
+						<div>2800</div>
+					</div>
+					<div class="info-solution">
+						<div>М 150</div>
+						<div>2950</div>
+					</div>
+					<div class="info-solution">
+						<div>М 200</div>
+						<div>3080</div>
+					</div>
+					<div class="info-solution">
+						<div>М 250</div>
+						<div>3250</div>
+					</div>
+				</div>
+			</div>
+			<!-- блок цен про раствор -->
+
+			<!-- блок цен про бетон -->
+			<div class="concrete">
+				<h3>Бетон</h3>
+				<p>руб./куб.м3</p>
+				<div class="all-info-concrete">
+					<div class="info-concrete">
+						<div>М 50</div>
+						<div>2500</div>
+					</div>
+					<div class="info-concrete">
+						<div>М 75</div>
+						<div>2650</div>
+					</div>
+					<div class="info-concrete">
+						<div>М 100</div>
+						<div>2800</div>
+					</div>
+					<div class="info-concrete">
+						<div>М 150</div>
+						<div>2950</div>
+					</div>
+					<div class="info-concrete">
+						<div>М 200</div>
+						<div>3080</div>
+					</div>
+					<div class="info-concrete">
+						<div>М 250</div>
+						<div>3250</div>
+					</div>
+					<div class="info-concrete">
+						<div>М 150</div>
+						<div>2950</div>
+					</div>
+					<div class="info-concrete">
+						<div>М 200</div>
+						<div>3080</div>
+					</div>
+					<div class="info-concrete">
+						<div>М 250</div>
+						<div>3250</div>
+					</div>
+				</div>
+			</div>
+			<!-- блок цен про бетон -->
+
+			<!-- блок цен про доставку раствора и бетона -->
+			<div class="delivery">
+				<div class="first-record">
+					<h3>Доставка бетона и раствора:</h3>
+					<p>Осуществляется автобетоносмесителями: 6 куб.м.; 8 куб.м. <br>
+					Минимальная стоимость доставки по городу Ярославлю - 2400 руб.<br>
+					Доставка по Ярославской области расчитывается отдельно.</p>			
+				</div>
+				<div class="second-record">
+					<h3>Услуги автобетоносмесителя:</h3>
+					<p>Автобетоносмеситель: 6 куб.м. - 1100 рублей в час.<br>
+					Автобетоносмеситель: 8 куб.м. - 1400 рублей в час.</p>	
+				</div>
+				<div class="last-record">
+					<h3>Услуги бетононасоса:</h3>
+					<p>Бетононасосы с разной высотой подачи: 15, 25, 36 метров.<br>
+					Цены на услуги бетононасоса расчитываются индивидуально.</p>
+					<p>Звоните. Мы поможем вам выбрать марку, расчитать объем
+					и доставку.  </p>
+					<p>+7 (4852) 43-65-71</p>
+				</div>
+				<div class="download-price-list">
+					<img src="assets/images/price-list.png" alt="">
+					<p>Скачать прайс лист</p>
+				</div>
+			</div>
+			<!-- блок цен про доставку раствора и бетона -->		</div>
+		<!-- общий блок -->
+	</section>
+	<!-- секция цены -->
+
+	<!-- секция Условия работы -->
+	<section class="container working-conditions">
+		<h2>Условия работы</h2>
+		<div class="all-info-working-conditions">
+			<ul>
+				<li>
+					<span>01 </span>Установка машины на площадку, ожидание бетона, промывка после прокачки, сборка 
+					и разборка бетоноводов считается временем работы
+				</li>
+				<li>
+					<span>02 </span>Наличие места слива и технологической 
+					промывки обязательно
+				</li>
+				<li>
+					<span>03 </span>Качество бетона и раствора должно соответствовать ГОСТу 7473 - 2010 <br>
+					и ГОСТу 28013 - 98
+				</li>
+				<li>
+					<span>04 </span>Время на прочистку автобетононасоса
+					и бетоноводов считается рабочим, если
+					забивание случилось по вине заказчика
+				</li>
+				<li>
+					<span>05 </span>Выгрузка, сборка, разборка, промывка
+					и погрузка бетоноводов осуществляется
+					силами заказчика при использовании
+					дополнительных бетоноводов
+				</li>
+			</ul>
+			<div class="photo-working">
+				<img src="assets/images/photo3.png" alt="">
+			</div>
+		</div>
+	</section>
+	<!-- секция Условия работы -->
+
+	<!-- секция быстрого заказа -->
+	<section class="order-now">
+		<h2>Закажи  прямо сейчас</h2>
+		<p>Мы перезвоним в течении 30 минут</p>
+		<div class="all-info-order-now">
+			<div class="photos">
+				<div class="first-photo">
+					<img src="assets/images/photo4.png" alt="">
+					<img src="assets/images/photo5.png" alt="" 
+					class="last-photo">
+				</div>
+			</div>
+			<form action="" class="form-order-now">
+				<input type="text" placeholder="Ваше имя" class="name-user">
+				<input type="text" placeholder="Телефон" class="phone-user">
+				<input type="submit" value="Перезвонить мне" class="btn-coll-me">
+				<div class="consent">
+					<input type="checkbox">
+					<p>Даю согласие на обработку данных</p>
+				</div>
+			</form>
+		</div>
+	</section>
+	<!-- секция быстрого заказа -->
+	<!-- секция Нас выбрали -->
+	<section class="container we-were-chosen" id="clients">
+		<h2>Нас выбрали</h2>
+		<div class="photos-chosen">
+			<div class="photos-row">
+				<div>
+					<img src="assets/images/photo6.png" alt="">
+				</div>
+				<div>
+					<img src="assets/images/photo7.png" alt="">
+				</div>
+				<div>
+					<img src="assets/images/photo8.png" alt="">
+				</div>
+			</div>
+			<div class="photos-row">
+				<div>
+					<img src="assets/images/photo9.png" alt="">
+				</div>
+				<div>
+					<img src="assets/images/photo10.png" alt="">
+				</div>
+				<div>
+					<img src="assets/images/photo11.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- секция Нас выбрали -->
+
+	<!-- секция с картой адреса -->
+	<section class="maps-address">
+		<div class="address-info">
+			<img src="assets/images/Logo.png" alt="" class="maps-logo-company">
+			<ul>
+				<li>- г. Ярославль, ул. Чернопрудная 30</li>
+				<li>- +7 (4852) 43-65-71</li>
+				<li>- betonmobil@yandex.ru</li>
+				<li>- Россия, г.Ярославль,<br> ул. Чернопрудная, д.30</li>
+			</ul>
+		</div>
+	</section>
+	<!-- секция с картой адреса -->
+
+	<!-- footer -->
+	<footer id="kontacts">
+		<div class="container footer-info">
+			<div class="first-column-footer">
+				<img src="assets/images/Logo.png" alt="">
+				<p>Политика конфиденциальнности</p>
+                <p>Соглашение на обработку персональных данных</p>
+			</div>
+			<div class="second-column-footer">
+				<ul>
+					<a href="">
+						<li>Главная</li>
+					</a>
+					<a href="">
+						<li>Цены</li>
+					</a>
+					<a href="">
+						<li>О нас</li>
+					</a>
+					<a href="">
+						<li>Отзывы</li>
+					</a>
+				</ul>
+			</div>
+			<div class="trhee-column-footer">
+				<ul>
+					<a href="">
+						<li>vkontakte</li>
+					</a>
+					<a href="">
+						<li>viber</li>
+					</a>
+					<a href="">
+						<li>instagram</li>
+					</a>
+					<a href="">
+						<li>whatsapp</li>
+					</a>
+				</ul>
+			</div>
+			<div class="last-column-footer">
+				<ul>
+					<a href="">
+						<li>г. Ярославль, ул. Чернопрудная 30</li>
+					</a>
+					<a href="">
+						<li>+7 (4852) 43-65-71</li>
+					</a>
+					<a href="">
+						<li>betonmobil@yandex.ru</li>
+					</a>
+					<a href="">
+						<li><button class="btn-coll-me">Перезвонить мне</button> </li>
+					</a>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<!-- footer -->
+	
+
+
+</body>
+</html>

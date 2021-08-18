@@ -1,0 +1,689 @@
+@import url('fonts.css');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 9;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.container{
+	max-width: 1305px;
+	margin: 0 auto;
+}
+.header{
+	margin: 77px 0px 0px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.header-logo{
+	display: flex;
+	max-width: 110px;
+	max-height: 44px;
+}
+.header-logo img{
+	width: 100%;
+}
+.header-phone{
+	font-size: 24px;
+	font-family: Montserrat-Bold;
+	line-height: 23,63px;
+	color: #333333;
+}
+.header-nav nav{
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+	width: 400px;
+}
+.header-nav nav li{
+	font-size: 18px;
+	line-height: 18px;
+	font-family: Montserrat-Regular;
+}
+
+.bg-header{
+	background-image: url("../images/bg1.png");
+	transition: 2s;
+    background-size: cover;
+    height: 757px;
+    width: 100%;
+    position: relative;
+}
+
+/*секция с информацией, которую видно сразу после загрузки страницы*/
+.fs{
+	position: absolute;
+	right: 0;
+    left: 0;
+    z-index: 9;
+    margin-top: -670px;
+}
+.main-info-fs{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.text-btn-fs{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.div-text-fs{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 483px;
+	min-height: 230px;
+	max-height: 240px;
+}
+.div-text-fs p:first-child{
+	font-size: 30px;
+	line-height: 98.44%;
+	font-family: Montserrat-Regular;
+	text-align: left;
+	
+}
+.div-text-fs h1{
+	font-family: Montserrat-Bold;
+	font-style: normal;
+	font-size: 70px;
+	line-height: 98.44%;
+	letter-spacing: 0.035em;
+	color: #333333;
+	font-variant: small-caps;
+	margin-left: -6px;
+}
+.div-text-fs p:last-child{
+	font-size: 24px;
+	line-height: 109.44%;
+	font-family: Montserrat-Regular;
+	margin-left: -3px;
+}
+
+.btn-fs{
+	width: 312px;
+	height: 64px;
+	background: #3D9BE9;
+	border: 1px solid #3D9BE9;
+	border-radius: 3px;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-family: Montserrat-Bold;
+	font-style: normal;
+	margin-top: 60px;
+}
+.btn-fs:hover{
+	cursor: pointer;
+}
+.photo-fs{
+	max-width: 729px;
+	max-height: 483.84px;
+}
+.photo-fs img{
+	width: 100%;
+	filter: drop-shadow(0px 12px 17px rgba(0, 0, 0, 0.58));
+	transform: rotate(0.18deg);
+	margin-left: 100px;
+}
+
+.btn-img-phone{
+	margin-top: 420px;
+    margin-left: -50px;
+    z-index: 9;
+}
+.div-btn-phone:hover{
+	cursor: pointer;
+}
+.div-btn-phone img{
+	background-image: url("../images/photo12.png");
+	width: 53px;
+	height: 53px;
+	z-index: 1;
+	position: absolute;
+	margin-top: -95px;
+	margin-left: 42px;
+}
+/*круг в круге*/
+.btn-phone {
+  border-radius:50%;
+  background: rgba(61, 155, 233, 0.3);
+  width:136px;
+  height:136px;
+  display: flex;
+  justify-content: center;
+  border: 0px;
+}
+.btn-phone:before {
+  content:'';
+  display: block;
+  border-radius: 50%;
+  background: rgba(61, 155, 233, 0.8);
+  width:100px;
+  height: 100px;
+  align-self: center;
+  transition: 0.3s;
+}
+.scale{
+	border-radius:50%;
+  background: rgba(61, 155, 233, 0.3);
+  width:136px;
+  height:136px;
+  display: flex;
+  justify-content: center;
+  border: 0px;
+}
+
+.scale:before {
+  content:'';
+  display: block;
+  border-radius: 50%;
+  background: rgba(61, 155, 233, 0.8);
+  width:136px;
+  height: 136px;
+  align-self: center;
+  transition: 0.3s;
+}
+
+/*круг в круге*/
+/*секция с информацией, которую видно сразу после загрузки страницы*/
+
+/*секция функции фирмы*/
+.function-firm-fs{
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	right: 0;
+    left: 0;
+    z-index: 9;
+    margin-top: -100px;
+}
+.function-firm-panel{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 412px;
+	height: 284.53px;
+	background: #FEFEFE;
+	border-radius: 6px;
+	justify-content: space-around;
+	-webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.function-firm-panel h2{
+	font-size: 96px;
+	line-height: 98.44%;
+	color: #EFF5F8;
+	font-family: Montserrat-Bold;
+}
+.function-firm-panel h3{
+	font-size: 22px;
+	line-height: 98.44%;
+	font-family: Montserrat-Regular;
+	color: #333333;
+}
+.function-firm-panel p{
+	font-size: 16px;
+	line-height: 140%;
+	font-family: Montserrat-Regular;
+	color: #333333;
+	width: 220px;
+	text-align: center;
+}
+/*секция функции фирмы*/
+
+/*секция наши приемущества*/
+.our-advantages{
+	margin-top: 300px;
+	position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 9;
+}
+.our-advantages h2{
+	font-size: 30px;
+	line-height: 98.44%;
+	color: #333333;
+	font-family: Montserrat-Regular;
+	text-align: center;
+}
+.advantages{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 185px;
+}
+.advantages h3{
+	font-size: 22px;
+	line-height: 98.44%;
+	font-family: Montserrat-Regular;
+	color: #333333;
+}
+.advantages p{
+	font-size: 16px;
+	line-height: 140%;
+	font-family: Montserrat-Regular;
+	color: #333333;
+	width: 300px;
+	text-align: center;
+	margin-top: 20px;
+}
+.reliability,.vehicle-fleet,.regulatory-documents{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.bg-advantages{
+	background-image: url("../images/photo2.png");
+	transition: 0.8s;
+    background-size: cover;
+    height: 757px;
+    width: 100%;
+    position: relative;
+    margin-top: 400px;
+}
+/*секция наши приемущества*/
+
+/*секция цены*/
+.prices{
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+.prices h2{
+	text-align: center;
+	font-size: 30px;
+	line-height: 98.44%;
+	color: #333333;
+	font-family: Montserrat-Regular;
+}
+.prices-info{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 70px;
+}
+
+
+.solution{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 450px;
+}
+.all-info-concrete,.all-info-solution{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.all-info-concrete .info-concrete:not(:first-child){
+	margin-top: 40px;
+}
+.all-info-solution .info-solution:not(:first-child){
+	margin-top: 40px;
+}
+.solution,.concrete h3,p{
+	text-align: center;
+}
+.solution,.concrete,.delivery h3{
+	font-size: 22px;
+	line-height: 98.44%;
+	font-family: Montserrat-Regular;
+	color: #333333;
+}
+.concrete p{
+	font-size: 16px;
+	line-height: 140%;
+	font-family: Montserrat-Regular;
+	color: #333333;
+	margin-top: 20px;
+}
+.solution p{
+	font-size: 16px;
+	line-height: 140%;
+	font-family: Montserrat-Regular;
+	color: #333333;
+
+	margin-top: 20px;
+}
+.info-solution,.info-concrete{
+	display: flex;
+	width: 165px;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(51, 51, 51, 0.1);
+	padding-bottom: 5.5px;
+}
+.info-solution,.info-concrete div{
+	font-family: Montserrat-Regular;
+	color: #333333;
+	font-size: 20px;
+}
+
+
+.delivery{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.first-record{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+}
+.delivery p{
+	text-align: left;
+	font-size: 16px;
+	line-height: 140%;
+	font-family: Montserrat-Regular;
+	color: #333333;
+	margin-top: 20px;
+}
+
+.second-record,.last-record h3{
+	margin-top: 38px;
+}
+
+.download-price-list{
+	display: flex;
+	align-items: center;
+	width: 250px;
+	justify-content: space-between;
+	margin-top: 44px;
+}
+.last-record p:nth-child(2){
+	margin-top: 38px;
+	margin-bottom: 41px;
+}
+.last-record p:last-child{
+	color: rgba(51, 51, 51, 0.8);
+	font-size: 24px;
+	font-family: Montserrat-Bold;
+}
+/*секция цены*/
+
+/*секция Условия работы*/
+.working-conditions{
+	display: flex;
+	flex-direction: column;
+	margin-top: 192px;
+}
+.working-conditions h2{
+	text-align: center;
+	font-size: 30px;
+	line-height: 98.44%;
+	color: #333333;
+	font-family: Montserrat-Regular;
+}
+.all-info-working-conditions{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 90px;
+}
+.all-info-working-conditions ul{
+	list-style-type: none;
+}
+.all-info-working-conditions ul li{
+	text-align: left;
+	font-size: 16px;
+	line-height: 140%;
+	font-family: Montserrat-Regular;
+	color: #333333;
+	max-width: 420px;
+}
+.all-info-working-conditions ul li:not(:first-child){
+	margin-top: 40px;
+}
+.all-info-working-conditions ul li span{
+	margin-right: 20px;
+}
+
+.photo-working{
+	width: 747px;
+	height: 525px;
+	margin-right: 100px;
+}
+.photo-working img{
+	width: 100%;
+}
+/*секция Условия работы*/
+
+/*секция быстрого заказа*/
+.order-now{
+	height: 771px;
+	background: #F8F8F8;
+	margin-top: 164px;
+	display: flex;
+	flex-direction: column;
+}
+.order-now h2{
+	text-align: center;
+	font-size: 30px;
+	line-height: 98.44%;
+	color: #333333;
+	font-family: Montserrat-Regular;
+	margin-top: 105px;
+}
+.order-now p{
+	font-size: 16px;
+	line-height: 140%;
+	font-family: Montserrat-Regular;
+	color: #333333;
+	margin-top: 10px;
+	text-align: center;
+}
+.all-info-order-now{
+	display: flex;
+	width: 1000px;
+	justify-content: space-between;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.form-order-now{
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+}
+
+.name-user,.phone-user{
+	padding: 14px;
+	background: transparent;
+	border: 0px;
+	border-bottom: 1px solid #333333;
+}
+.phone-user{
+	margin-top: 50px;
+}
+.name-user,.phone-user:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.btn-coll-me{
+	margin-top: 70px;
+	width: 250px;
+	height: 50px;
+	background: #3D9BE9;
+	border: 1px solid #3D9BE9;
+	border-radius: 3px;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-family: Montserrat-Regular;
+}
+.consent{
+	display: flex;
+	width: 250px;
+	justify-content: space-between;
+	margin-top: 13px;
+
+}
+.consent p{
+	color: #333333;
+	font-family: Montserrat-Regular;
+	font-size: 12px;
+	margin-top: 0px;
+}
+
+.photos{
+	margin-top: 40px;
+}
+.last-photo{
+	position: absolute;
+	margin-left: -200px;
+	margin-top: 33px;
+}
+/*секция быстрого заказа*/
+
+
+/*секция Нас выбрали*/
+.we-were-chosen{
+	margin-top: 98px;
+}
+.we-were-chosen h2{
+	text-align: center;
+	font-size: 30px;
+	line-height: 98.44%;
+	color: #333333;
+	font-family: Montserrat-Regular;
+}
+.photos-chosen{
+	display: flex;
+	flex-direction: column;
+	margin-top: 80px;
+}
+.photos-row{
+	display: flex;
+	justify-content: space-between;
+}
+.photos-row div{
+	max-width: 424px;
+	max-height: 195.47px;
+}
+.photos-row div img{
+	width: 100%;
+}
+/*секция Нас выбрали*/
+
+
+/*секция с картой адреса*/
+.maps-address{
+	background-image: url("../images/maps.png");
+	background-size: cover;
+	height: 590px;
+	margin-top: 210px;
+	display: flex;
+	align-items: center;
+}
+.maps-logo-company{
+	width: 110px;
+	height: 44px;
+	margin-left: 45px;
+	margin-top: 30px;
+
+}
+.address-info{
+	display: flex;
+	flex-direction: column;
+	background-color:  #FFFFFF;
+	width: 385px;
+	height: 328px;
+	margin: 50px 30px 44px 419px;
+}
+.address-info ul{
+	list-style-type: none;
+	margin-left: 45px;
+}
+.address-info ul li{
+	font-size: 16px;
+	line-height: 140%;
+	font-family: Montserrat-Regular;
+	color: #333333;
+	margin-top: 15px;
+	text-align: left;
+}
+.address-info ul li:first-child{
+	margin-top: 35px;
+}
+/*секция с картой адреса*/
+
+/*footer*/
+footer{
+	background-color: #333333;
+	color: #FFFFFF;
+	padding: 60px 0px;
+}
+.footer-info{
+	display: flex;
+	justify-content: space-between;
+}
+.footer-info ul{
+	list-style-type: none;
+}
+.first-column-footer{
+	display: flex;
+	width: 250px;
+	flex-direction: column;
+	height: 200px;
+	justify-content: space-between;
+}
+.first-column-footer img{
+	width: 110px;
+	height: 44px;
+}
+.first-column-footer p{
+	text-align: left;
+	font-size: 18px;
+	line-height: 140%;
+	font-family: Montserrat-Regular;
+	color: #FFFFFF;
+}
+
+.second-column-footer{
+	margin-top: 50px;
+}
+.trhee-column-footer{
+	margin-top: 50px;
+}
+.last-column-footer{
+	margin-top: 50px;
+}
+
+.second-column-footer ul{
+	display: flex;
+	flex-direction: column;
+	height: 110px;
+	justify-content: space-between;
+}
+
+.trhee-column-footer ul{
+	display: flex;
+	flex-direction: column;
+	height: 110px;
+	justify-content: space-between;
+}
+.last-column-footer ul{
+	display: flex;
+	flex-direction: column;
+	height: 140px;
+	justify-content: space-between;
+}
+.last-column-footer ul a:last-child li button{
+	margin-top: 10px;
+}
+.footer-info ul a{
+	text-decoration: none;
+}
+.footer-info ul li{
+	font-size: 18px;
+	line-height: 140%;
+	font-family: Montserrat-Regular;
+	color: #FFFFFF;
+}
